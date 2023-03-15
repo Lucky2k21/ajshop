@@ -1,0 +1,53 @@
+#product h1{
+
+    text-decoration-thickness:from-font;
+    text-transform: uppercase;
+
+}
+#product h1::after{
+    content: '';
+    background: #cc0099;
+    display: block;
+    height: 3px;
+    width: 100px;
+    margin: 10px auto;
+}
+#product .card:hover{
+    transform: scale(1.02);
+}
+#product .card h4{
+    text-transform: capitalize;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+#product .card .card-text{
+    font-size: 15px;
+    color: black;
+}
+
+#product .card img{
+
+
+    object-fit: contain;
+    height: -webkit-fill-available;
+    align-items: center;
+    justify-content: center;
+}
+#product .card img .imgdiv{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#product .card button{
+    border-radius: 50px !important;
+}
+#product .card button:hover{
+    background-color: #a434b7 !important;
+}
+#product .card .btn{
+    border-radius: 50px !important;
+}
+#product .card .btn:hover{
+    background-color: #a434b7 !important;
+}
