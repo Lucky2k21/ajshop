@@ -56,6 +56,38 @@ class About extends Component{
          </div>
          </div>
 
+      
+         <div className="about-section wf-section mt-4" style={{backgroundColor:'#dacec6b0'}}>
+   <div className="container w-container">
+      <div className="about-wrap">
+         <h2>Natural and <br/>organic</h2>
+         <h3 className="sub-title m-1">skincare</h3>
+         <p className="about-description">Natural, non-toxic cosmetics are designed to enhance your natural beauty, while nourishing and protecting your skin</p>
+         <a href="/shop" className="button-outline w-button">Shop all</a>
+      </div>
+   </div>
+   <div  className="about-image-item one" >
+      <img src="https://assets.website-files.com/624fd4a40f05b81d5dc5644c/624fe816c8230f2eb809e720_about-01.jpg" loading="lazy" alt="1" className="about-image"/>
+   </div>
+   <div  className="about-image-item two" >
+      <img src="https://assets.website-files.com/624fd4a40f05b81d5dc5644c/624fe8a01fb642b8deeb8a8e_about-02.jpg" loading="lazy" alt="2" className="about-image"/>
+   </div>
+   <div  className="about-image-item three" >
+      <img src="https://i.ibb.co/VpLcvsm/vc.webp" loading="lazy" alt="3" className="about-image" style={{height:'187px',width:'214px'}}/>
+   </div>
+   <div  className="about-image-item four" >
+      <img src="https://assets.website-files.com/624fd4a40f05b81d5dc5644c/624fea68c6bcd46c3eb8f0f6_about-04.jpg" loading="lazy" alt="4" className="about-image"/>
+   </div>
+   <div  className="about-image-item six" >
+      <img src="https://assets.website-files.com/624fd4a40f05b81d5dc5644c/624fea68c6bcd46c3eb8f0f6_about-04.jpg" loading="lazy" alt="5" className="about-image"/>
+   </div>
+   <div  className="about-image-item five" >
+      <img src="https://assets.website-files.com/624fd4a40f05b81d5dc5644c/624feaa51db074e09e802cd2_about-05.jpg" loading="lazy" alt="6" className="about-image"/>
+   </div>
+</div>
+
+
+
 <section className="testimonials" id="review" style={{backgroundColor:'var(--primary-color)'}} >
    <div className="container" >
       <h1 style={{color:'var(--secondary-color)',textAlign:'center',textTransform:'capitalize',fontWeight: 'normal'}}>Reviews</h1>
