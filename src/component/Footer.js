@@ -10,7 +10,7 @@ const Footer = ()=>{
       <div className="row text-center text-md-left">
          <div className="col-md-3 col-lg-3 col-xl-3 mx-auto mt-2">
             <h5 className="text-uppercase mb-3 font-weight-bold text-warning">About Us</h5>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            <p>aj wellness Cosmetics believes that beauty and self-care are connected. Natural, non-toxic cosmetics are designed to enhance your natural beauty, while nourishing and protecting your skin</p>
          </div>
          <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mt-2">
             <h5 className="text-uppercase mb-3 font-weight-bold text-warning">Quick Links</h5>
@@ -25,7 +25,7 @@ const Footer = ()=>{
             <p >
                <i className="fas fa-home " style={{marginRight:'10px' }}></i>Bengaluru
             </p>
-            <p><i className="fas fa-envelope " style={{marginRight:'10px' }}></i>arks@outlook.com</p>
+            <p><i className="fas fa-envelope " style={{marginRight:'10px' }}></i>hello@amy-joy.com </p>
             <ul className="list-unstyled list-inline">
                <li className="list-inline-item"><Link to={`/`} className="btn-floating btn-sm text-white" style={{fontSize:'23px'}}><i className="fab fa-facebook"></i></Link></li>
                <li className="list-inline-item"><Link to={`/`} className="btn-floating btn-sm text-white" style={{fontSize:'23px'}}><i className="fab fa-whatsapp"></i></Link></li>
@@ -36,7 +36,7 @@ const Footer = ()=>{
          </div>
          <div className="row  align-item-center justify-content-center">
          
-               <p className="text-warning">Copyright © AJ WELLNESS </p>
+               <p className="text-warning">Copyright © aj wellness </p>
                
             
          </div>

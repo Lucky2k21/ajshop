@@ -91,9 +91,9 @@
     outline: none;
     border: none;
     background: #f3f0ff;
-    padding: 10px 5px;
+    padding: 7px;
     border-radius: 20px;
-    margin-bottom: 12px;
+    /* margin-bottom: 12px; */
     font-size: 18px;
   }
 

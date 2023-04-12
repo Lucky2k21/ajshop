@@ -133,10 +133,26 @@
 
 /*category*/
 #category h1{
-
+    font-family: Chapaza;
     text-decoration-thickness:from-font;
     text-transform: uppercase;
+    z-index: 0;
 
+}
+#category h1::before{
+    content: "";
+    background-image: url(https://cdn.shopify.com/s/files/1/0284/5599/3449/files/Vector_36.png?v=1610691840);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-60%);
+    width: 165px;
+    height: 85px;
+    z-index: -1;
 }
 #category h1::after{
     content: '';
@@ -148,6 +164,17 @@
 }
 #category .card:hover{
     transform: scale(1.02);
+}
+#category .inner{
+    overflow: hidden;
+    border-radius: inherit
+}
+#category .inner img{
+    transition: all 1.5s ease;
+    
+}
+#category .inner:hover img{
+    transform: scale(1.5);
 }
 #category .card h4{
     text-transform: capitalize;
@@ -219,12 +246,10 @@
     margin-top: 39px;
 }
 .testimonials h1{
+    font-family: Chapaza;
     text-align: center;
-    font-weight: bold;
-    color:black;
-    padding-bottom: 39px;
-    margin: 35px;
-    text-transform: uppercase;
+    text-transform: capitalize;
+
 }
 .testimonials h1::after{
     content: '';
@@ -315,4 +340,81 @@ blockquote{
    border:3px solid white;
    border-radius: 7px;
    margin-left: -21px;
+}
+
+.home_usps_wrap {
+    position: relative;
+    z-index: 9;
+    background: #ffc1071a;
+    
+}
+span.us_image {
+    position: absolute;
+    top: 0px;
+    left: 0;
+}
+span.right_image{
+    position: absolute;
+    right: 0px;
+    top: -5px;
+}
+.home_usps_wrap .card{
+    align-items: center;
+}
+.home_usps_wrap .card img{
+    height: 139px;
+    width: 139px;
+
+}
+.section{
+    background-color: #bbbbbb4a;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    width: 100%;
+    /* margin: 2rem auto 0 auto ; */
+    align-items: center;
+}
+.section img{
+    height: 250px;
+    margin: 2px;
+    border-style: double;
+    border-radius: 3px;
+}
+
+
+.section p{
+    color: #000;
+    text-align: center;
+    margin: revert;
+}
+
+#about h1{
+    font-family: Chapaza;
+    text-decoration-thickness:from-font;
+    
+z-index: 0;
+}
+#about h1::before{
+    content: "";
+    background-image: url(https://cdn.shopify.com/s/files/1/0284/5599/3449/files/Vector_36.png?v=1610691840);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-60%);
+    width: 165px;
+    height: 85px;
+    z-index: -1;
+}
+#about h1::after{
+    content: '';
+    background: #cc0099;
+    display: block;
+    height: 3px;
+    width: 100px;
+    margin: 10px auto;
 }

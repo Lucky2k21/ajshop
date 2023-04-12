@@ -102,7 +102,8 @@ class Cart extends Component {
                                 <h3 style={{ textAlign: 'center' }}>Details</h3>
                             </div>
                             <div className='card-body'>
-                                <form action="https://paytm.onrender.com/paynow" method="POST">
+                                <form >
+                                {/* <form action="https://paytm.onrender.com/paynow" method="POST"> */}
                                     <input type="hidden" name="cost" value={this.state.cost} />
                                     <input type="hidden" name="id" value={this.state.id} />
                                     <input type="hidden" name="product_name" value={this.state.product_name} />

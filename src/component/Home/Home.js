@@ -1,6 +1,7 @@
 import React  from "react";
 import Slider from "./Slider";
 import Category from "./Category";
+import About from "./About";
 import Header from "../Header";
 import Footer from "../Footer";
 
@@ -10,6 +11,7 @@ const Home = ()=>{
         <Header/>
             <Slider/>
             <Category/>
+            <About/>
             <Footer/>
         </>
     )

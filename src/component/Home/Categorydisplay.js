@@ -11,7 +11,9 @@ const Categorydisplay = (props) => {
 
 
                     <div className="card border-0 col-md-6 col-lg-4 my-4" key={item.category_id}>
-                        <img src={item.image} alt={item.category} className="imgdiv" />
+                        <div className="inner">
+                        <img src={item.image} alt={item.category} className="card-img-top" />
+                        </div>
                         <div className="card-body text-center ">
                             <h4 className="card-title text-decoration-underline" style={{ color: '#864f23' }}>{item.content}</h4>
 

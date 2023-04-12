@@ -100,8 +100,8 @@
     background: black;
 }
 .navbar-brand #image{
-    width:60px;
-    height: 60px;
+    width:57px;
+    height: 57px;
     border-radius: 59px;
 }
 #navbarSupportedContent a{
@@ -169,7 +169,7 @@
 
     text-decoration-thickness:from-font;
     text-transform: uppercase;
-
+    z-index: 0;
 }
 #product h1::after{
     content: '';
@@ -186,20 +186,34 @@
     text-transform: capitalize;
     font-weight: bold;
     font-family: 'Roboto', sans-serif;
-    font-size: 13px;
+    font-size: 15px;
 }
 #product .card .card-text{
     font-size: 15px;
     color: black;
 }
 
-#product .card img{
-    height: 350px;
 
-    object-fit: cover;
+#product .card .picture2{
+    display: none;
+}
+#product .card:hover .picture1{
+    display: none;
+}
+#product .card:hover .picture2{
+    display: block;
+}
+
+#product .card img{
+    position: relative;
+    object-fit: contain;
+    height: 350px;
     align-items: center;
     justify-content: center;
+    transition: opacity 1s ease-in-out;
 }
+
+
 #product .card img .imgdiv{
     height: 100%;
     width: 100%;

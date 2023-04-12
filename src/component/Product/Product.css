@@ -2,7 +2,7 @@
 
     text-decoration-thickness:from-font;
     text-transform: uppercase;
-
+    z-index: 0;
 }
 #product h1::after{
     content: '';
@@ -26,14 +26,28 @@
     color: black;
 }
 
+
+#product .card .picture2{
+    display: none;
+}
+#product .card:hover .picture1{
+    display: none;
+}
+#product .card:hover .picture2{
+    display: block;
+}
+
 #product .card img{
-
-
+    position: relative;
     object-fit: contain;
-    height: -webkit-fill-available;
+    height: 350px;
+    width: -webkit-fill-available;
     align-items: center;
     justify-content: center;
+    transition: opacity 1s ease-in-out;
 }
+
+
 #product .card img .imgdiv{
     height: 100%;
     width: 100%;
