@@ -32,7 +32,8 @@ const Routing = () => {
             <Route exact path="/Details/Details" component={Details} />
             <Route exact path="/Condition" component={Condition} />
             <Route exact path="/AddProduct/AddProduct" component={AddProduct} />
-            <Route exact path="/Admin/AdminHeader" component={AdminHeader} />
+            {/* <Route exact path="/Admin/AdminHeader" component={AdminHeader} /> */}
+            <Route exact path={`${process.env.PUBLIC_URL}/Admin/AdminHeader`} component={AdminHeader} />
             <Route exact path="/Admin/Order" component={Order} />
             <Route exact path="/Admin/Login" component={ALogin} />
             <Route exact path="/Admin/Description" component={Description} />
