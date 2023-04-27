@@ -26,7 +26,7 @@ const Routing = ({location}) => {
 
     return (
         <BrowserRouter>
-            <Route exact path="/" component={Home} />
+            <Route  path="/" component={Home} />
             <Route  path="/Product/Product" component={Product} />
             <Route  path="/CatPro/CatPro/:category_id" component={CatPro} />
             <Route  path="/Details/Details" component={Details} />
