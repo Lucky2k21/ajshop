@@ -14,7 +14,7 @@ class About extends Component{
             <div className="text">
                
                <p>
-                  aj wellness is a cosmetics brand that offers a unique blend of natural ingredients with a modern approach. Our products are free from harsh chemicals and instead feature non-chemical, natural ingredients to provide you with clean beauty that enhances your natural radiance and well-being. We believe that true beauty comes from feeling confident and comfortable in your skin, which is why we're dedicated to creating safe, natural, and effective products. Our meticulously crafted formulations are designed to deliver optimal results without compromising your health or the environment. At AJ Wellness, we're passionate about bringing you a fresh and contemporary approach to natural beauty.
+                  <span style={{fontWeight: 'bold',fontFamily: 'poppins'}}>aj wellness</span> is a cosmetics brand that offers a unique blend of natural ingredients with a modern approach. Our products are free from harsh chemicals and instead feature non-chemical, natural ingredients to provide you with clean beauty that enhances your natural radiance and well-being. We believe that true beauty comes from feeling confident and comfortable in your skin, which is why we're dedicated to creating safe, natural, and effective products. Our meticulously crafted formulations are designed to deliver optimal results without compromising your health or the environment. At <span style={{fontWeight: 'bold',fontFamily: 'poppins'}}>aj wellness</span>, we're passionate about bringing you a fresh and contemporary approach to natural beauty.
          
                </p>
             </div>
@@ -63,7 +63,7 @@ class About extends Component{
          <h2>Natural and <br/>organic</h2>
          <h3 className="sub-title m-1">skincare</h3>
          <p className="about-description">Natural, non-toxic cosmetics are designed to enhance your natural beauty, while nourishing and protecting your skin</p>
-         <a href="/shop" className="button-outline w-button">Shop all</a>
+         <a href="Product/Product" className="button-outline w-button">Shop all</a>
       </div>
    </div>
    <div  className="about-image-item one" >
@@ -87,6 +87,126 @@ class About extends Component{
 </div>
 
 
+<section className="pt-5 pb-5 m-2" id="upcoming">
+   <div className="container">
+   <h1 style={{color:'var(--secondary-color)',textAlign:'center',textTransform:'capitalize',fontWeight: 'normal'}}>Coming-soon</h1>
+     <div className="row">
+       <div className="col-6">
+         
+       </div>
+       <div className="col-6 text-right">
+         <a className="btn btn-dark mb-3 mr-1" href="#carouselExampleIndicators2" role="button" data-slide="prev">
+           <i className="fa fa-arrow-left"></i>
+         </a>
+         <a className="btn btn-dark mb-3 " href="#carouselExampleIndicators2" role="button" data-slide="next">
+           <i className="fa fa-arrow-right"></i>
+         </a>
+       </div>
+       <div className="col-12">
+         <div id="carouselExampleIndicators2" className="carousel slide" data-ride="carousel">
+ 
+           <div className="carousel-inner">
+             <div className="carousel-item active">
+               <div className="row">
+ 
+                 <div className="col-md-3 mb-3">
+                   <div className="card">
+                     <img className="img-fluid" alt="100%x280" src="https://i.ibb.co/cyp4p9S/face-mask.jpg" style={{height:'220px',objectFit:'cover'}}/>
+                     <div className="card-body" style={{height:'190px'}}>
+                       <h4 className="card-title">Clay Mask</h4>
+                       <p className="card-text" style={{textAlign:'start',fontFamily:'Open Sans'}}>Helps your skin heal and regenerate, improves collagen production, and gives it a brighter, more youthful appearance.</p>
+                     </div>
+                   </div>
+                 </div>
+                 <div className="col-md-3 mb-3">
+                   <div className="card">
+                     <img className="img-fluid" alt="100%x280" src="https://i.ibb.co/S03NXRN/hairc.webp" style={{height:'220px',objectFit:'cover'}}/>
+                     <div className="card-body" style={{height:'190px'}}>
+                       <h4 className="card-title">Hair Conditioner</h4>
+                       <p className="card-text" style={{textAlign:'start',fontFamily:'Open Sans'}}>Hair conditioner with goodness of cocoa butter & hibiscus for dry & frizzy hair.</p>
+ 
+                     </div>
+                   </div>
+                 </div>
+                 <div className="col-md-3 mb-3">
+                   <div className="card">
+                     <img className="img-fluid" alt="100%x280" src="https://i.ibb.co/cb2QKd3/haircolo.webp" style={{height:'220px',objectFit:'cover'}}/>
+                     <div className="card-body" style={{height:'190px'}}>
+                       <h4 className="card-title">Hair Color</h4>
+                       <p className="card-text" style={{textAlign:'start',fontFamily:'Open Sans'}}>Herbal hair colours  gently colours the greys and whites and gives the hair an exotic natural black sheen.</p>
+ 
+                     </div>
+                   </div>
+                 </div>
+                 <div className="col-md-3 mb-3">
+                   <div className="card">
+                     <img className="img-fluid" alt="100%x280" src="https://i.ibb.co/mDL4P96/lipbalm.jpg" style={{height:'220px',objectFit:'cover'}}/>
+                     <div className="card-body" style={{height:'190px'}}>
+                       <h4 className="card-title">Lip Balm</h4>
+                       <p className="card-text" style={{textAlign:'start',fontFamily:'Open Sans'}}>It has nourishing and moisturizing properties that keep the  lips soft.</p>
+ 
+                     </div>
+                   </div>
+                 </div>
+                 
+               </div>
+             </div>
+             
+             
+             <div className="carousel-item">
+               <div className="row">
+ 
+                                 <div className="col-md-3 mb-3">
+                   <div className="card">
+                     <img className="img-fluid" alt="100%x280" src="https://i.ibb.co/TBj5bLf/soap.jpg" style={{height:'220px',objectFit:'cover'}}/>
+                     <div className="card-body" style={{height:'190px'}}>
+                       <h4 className="card-title">Soaps</h4>
+                       <p className="card-text" style={{textAlign:'start',fontFamily:'Open Sans'}}>Handmade soaps with pure plant oils, butters & exotic natural essential oils, herbs & soothing clays.</p>
+                     </div>
+                   </div>
+                 </div>
+                 <div className="col-md-3 mb-3">
+                   <div className="card">
+                     <img className="img-fluid" alt="100%x280" src="https://i.ibb.co/YNNfCVY/alfwebp.webp" style={{height:'220px',objectFit:'cover'}}/>
+                     <div className="card-body" style={{height:'190px'}}>
+                       <h4 className="card-title">Aloe Face Wash</h4>
+                       <p className="card-text" style={{textAlign:'start',fontFamily:'Open Sans'}}>Remove dirt, oil, and impurities without stripping the skin of its natural moisture.</p>
+ 
+                     </div>
+                   </div>
+                 </div>
+                 
+                 <div className="col-md-3 mb-3">
+                   <div className="card">
+                     <img className="img-fluid" alt="100%x280" src="https://i.ibb.co/qYqSpHD/alwebp.webp" style={{height:'220px',width:'220px',objectFit:'cover'}}/>
+                     <div className="card-body" style={{height:'190px'}}>
+                       <h4 className="card-title">Aloe Face Cream</h4>
+                       <p className="card-text" style={{textAlign:'start',fontFamily:'Open Sans'}}>This cream is designed to provide nourishment and hydration to your skin while reducing inflammation.</p>
+ 
+                     </div>
+                   </div>
+                 </div>
+ 
+               </div>
+             </div>
+             
+             
+             
+             
+             
+           </div>
+         </div>
+       </div>
+     </div>
+   </div>
+ </section>
+
+ <section className="container-fluid">
+   <div >
+      <video src="banner.mp4" className="vi-bg" type="video/mp4" controls loop muted alt="Chicago" autoPlay={true}   style={{width:'100%',height:'700px',objectFit: 'cover'}}></video>
+   </div>
+
+ </section>
 
 <section className="testimonials" id="review" style={{backgroundColor:'var(--primary-color)'}} >
    <div className="container" >
@@ -96,7 +216,7 @@ class About extends Component{
          <div className="col-md-4 text-center">
             <div className="profile">
                <img src="a2.jpg" className="user" alt="img"/>
-               <p className="p">I am  personally very impressed & would recommend  all the  skincare products  of AJ 😊.</p>
+               <p className="p">I am  personally very impressed & would recommend  all the  skincare products  of aj 😊.</p>
                <h3>AA</h3>
             </div>
          </div>
@@ -121,6 +241,8 @@ class About extends Component{
       </div>
    </div>
 </section>
+
+
 
    </>
             

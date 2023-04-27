@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
 import './Header.css';
+import { Link } from 'react-router-dom';
 
 class Slider extends Component{
     render(){
         return(
             <>
-            <div id="demo" className="carousel slide" data-bs-interval="false">
+            <div id="demo" className="carousel slide carousel-fade"  data-bs-ride="carousel">
 
       <div className="carousel-indicators">
         <button type="button" data-bs-target="#demo" data-bs-slide-to="0" className="active" style={{backgroundColor:'black'}}></button>
@@ -31,8 +32,8 @@ class Slider extends Component{
          <img src="./slider1.jpg" alt="Los Angeles" className="d-block" style={{width:'100%',height:'650px',objectFit: 'cover'}}/>
          <div className="carousel-caption">
            <h3 style={{color:'black' ,fontFamily:'Lobster cursive'}}>Handcrafted, lab produce; formulated to meet everyday's beauty wants. Affordability & minimalism at its core, "essentials only" is our brand philosophy.</h3>
-           <p style={{color:'black' ,fontFamily:'Lobster cursive'}}>We all have individual cosmetic needs & one product or formulation doesn't fit all skin types, so why we are very</p>
-           <p style={{color:'black' ,fontFamily:'Lobster cursive'}}>enthusiastic to offer our customized services - literally at minimal to no extra costs. Get in touch with us to know more.</p>
+           <p style={{color:'black' ,fontFamily:' poppins',fontSize:'20px'}}>We all have individual cosmetic needs & one product or formulation doesn't fit all skin types, so why we are very</p>
+           <p style={{color:'black' ,fontFamily:'poppins',fontSize:'20px'}}>enthusiastic to offer our customized services - literally at minimal to no extra costs. Get in touch with us to know more.</p>
            <p style={{color:'black'}}>Thank you</p>
          </div>
        </div>
@@ -71,18 +72,23 @@ class Slider extends Component{
       <img src="https://cdn.shopify.com/s/files/1/2611/0314/files/pattern-leaf.png" alt="1"/> 
     </span>
         <div className="container ">
+        <Link  to={`./Condition`} >
+        <div className="row" style={{marginLeft:'180px'}} >
         
-        <div className="row">
-         <div className="card border-0  col-lg-4 " style={{backgroundColor: '#fff0'}}>
+         <div className="card border-0  col-lg-2 " style={{backgroundColor: '#fff0'}}>
             <img src="1.webp" alt="1"/>
          </div>
-         <div className="card border-0  col-lg-4 " style={{backgroundColor: '#fff0'}}>
+         <div className="card border-0  col-lg-2 " style={{backgroundColor: '#fff0'}}>
             <img src="2.webp" alt="2"/>
          </div>
-         <div className="card border-0  col-lg-4 " style={{backgroundColor: '#fff0'}}>
+         <div className="card border-0  col-lg-2 " style={{backgroundColor: '#fff0'}}>
             <img src="3.webp" alt="3"/>
          </div>
-        </div>
+         <div className="card border-0 col-lg-2 " style={{backgroundColor:'#fff0'}}>
+            <img src="hb.png" alt="ha" style={{height: '105px',width:'105px'}}/>
+            <p style={{color:'grey',fontWeight:'600',fontSize: '12px'}}>Hand Made</p>
+         </div>
+        </div></Link>
         <span className="right_image">
          <img src="5.webp" alt="1"/> 
        </span>

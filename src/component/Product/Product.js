@@ -73,6 +73,25 @@ class Product extends Component{
             {/* <button  className="btn btn-success" onClick={this.proceed}></button> */}
             </div>
             <section  id="product"  style={{backgroundColor:'var(--primary-color)'}}>
+
+            <div id="demo" className="carousel slide carousel-fade" data-bs-ride="carousel">
+  <div className="carousel-inner">
+    <div className="carousel-item active">
+      
+      <video src="/prodbanner.mp4"   loop muted alt="Chicago" autoPlay={true} className="d-block" style={{width:'100%',height:'500px',objectFit:'fill'}}></video>
+    </div>
+    <div className="carousel-item">
+    <video src="/serbanner.mp4"   loop muted alt="Chicago" autoPlay={true} className="d-block" style={{width:'100%',height:'500px',objectFit:'fill'}}></video>
+    </div>
+    
+  </div>
+  <button className="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev" style={{background:"none",color:'black'}}>
+    <span className="carousel-control-prev-icon"></span>
+  </button>
+  <button className="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next" style={{background:"none"}}>
+    <span className="carousel-control-next-icon"></span>
+  </button>
+</div>
             
   <div className='container-fluid'>
      <div className="title text-center py-5">

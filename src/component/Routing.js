@@ -20,6 +20,7 @@ import ALogin from './Admin/Login';
 import Order from './Admin/Order'
 import Login from './login/login';
 import Register from './login/register';
+import Condition from './Home/Condition';
 
 const Routing = () => {
 
@@ -29,7 +30,7 @@ const Routing = () => {
             <Route exact path="/Product/Product" component={Product} />
             <Route exact path="/CatPro/CatPro/:category_id" component={CatPro} />
             <Route exact path="/Details/Details" component={Details} />
-
+            <Route exact path="/Condition" component={Condition} />
             <Route exact path="/AddProduct/AddProduct" component={AddProduct} />
             <Route exact path="/Admin/AdminHeader" component={AdminHeader} />
             <Route exact path="/Admin/Order" component={Order} />

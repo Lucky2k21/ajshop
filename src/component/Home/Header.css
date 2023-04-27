@@ -89,7 +89,7 @@
     top:0;
     left:0;
     z-index: 100;
-    padding: .5rem 5rem;
+    padding: inherit;
     box-shadow: 1px 0px 10px rgba(0,0,.5);
     background: black;
 }
@@ -244,12 +244,29 @@
     padding: 65px;
     margin-bottom: 17px;
     margin-top: 39px;
+    
 }
 .testimonials h1{
     font-family: Chapaza;
-    text-align: center;
-    text-transform: capitalize;
+    text-decoration-thickness:from-font;
+    
+z-index: 0;
 
+}
+.testimonials h1::before{
+    content: "";
+    background-image: url(https://cdn.shopify.com/s/files/1/0284/5599/3449/files/Vector_36.png?v=1610691840);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    
+    position: absolute;
+    left: 50%;
+    
+    transform: translate(-51%,-33%);
+    width: 165px;
+    height: 85px;
+    
 }
 .testimonials h1::after{
     content: '';
@@ -262,9 +279,9 @@
 .testimonials .row{
     margin-top: 78px;
 }
-.col-md-4{
+/* .col-md-4{
     margin: 40px auto;
-}
+} */
 .profile{
 
     background-color: #efefef;
@@ -376,7 +393,7 @@ span.right_image{
     align-items: center;
 }
 .section img{
-    height: 250px;
+    height: 280px;
     margin: 2px;
     border-style: double;
     border-radius: 3px;
@@ -385,9 +402,35 @@ span.right_image{
 
 .section p{
     color: #000;
-    text-align: center;
+    text-align: inherit;
     margin: revert;
+    padding: inherit;
+    font-family: cursive;
+    transition: color .5s;
+    animation: rainbow 2s infinite;
+
 }
+
+@keyframes rainbow {
+    0% {
+      color: #980808;
+    }
+    15%{
+        color: #000;
+    }
+    25% {
+      color: rgb(214, 54, 201);
+    }
+    50% {
+      color: rgb(27, 132, 167);
+    }
+    75% {
+      color: rgb(201, 124, 24);
+    }
+    100% {
+      color: rgb(226, 31, 141);
+    }
+  }
 
 #about h1{
     font-family: Chapaza;
@@ -404,8 +447,8 @@ z-index: 0;
     
     position: absolute;
     left: 50%;
-    top: 50%;
-    transform: translate(-50%,-60%);
+    
+    transform: translate(-51%,-33%);
     width: 165px;
     height: 85px;
     z-index: -1;
@@ -509,4 +552,34 @@ z-index: 0;
 }
 .w-button:hover{
     color: brown;
+}
+
+#upcoming h1{
+    font-family: poppins;
+    text-decoration-thickness:from-font;
+    
+z-index: 0;
+}
+#upcoming h1::before{
+    content: "";
+    background-image: url(https://cdn.shopify.com/s/files/1/0284/5599/3449/files/Vector_36.png?v=1610691840);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    
+    position: absolute;
+    left: 50%;
+    
+    transform: translate(-51%,-33%);
+    width: 165px;
+    height: 85px;
+    z-index: -1;
+}
+#upcoming h1::after{
+    content: '';
+    background: #cc0099;
+    display: block;
+    height: 3px;
+    width: 100px;
+    margin: 10px auto;
 }
