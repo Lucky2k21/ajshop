@@ -27,25 +27,24 @@ const Routing = () => {
     return (
         <BrowserRouter>
             <Route exact path="/" component={Home} />
-            <Route exact path="/Product/Product" component={Product} />
-            <Route exact path="/CatPro/CatPro/:category_id" component={CatPro} />
-            <Route exact path="/Details/Details" component={Details} />
-            <Route exact path="/Condition" component={Condition} />
-            <Route exact path="/AddProduct/AddProduct" component={AddProduct} />
-            {/* <Route exact path="/Admin/AdminHeader" component={AdminHeader} /> */}
-            <Route exact path={`${process.env.PUBLIC_URL}/Admin/AdminHeader`} component={AdminHeader} />
-            <Route exact path="/Admin/Order" component={Order} />
-            <Route exact path="/Admin/Login" component={ALogin} />
-            <Route exact path="/Admin/Description" component={Description} />
-            <Route exact path="/Admin/ProductList" component={ProductList} />
-            <Route exact path="/Admin/ProductUpdate/:product_id" component={ProductUpdate} />
-            <Route exact path="/Admin/DescriptionList" component={DescriptionList} />
-            <Route exact path="/Admin/DescriptionUpdate/:product_id" component={DescriptionUpdate} />
-            <Route exact path="/login/login" component={Login} />
-            <Route exact path="/login/register" component={Register} />
-            <Route exact path="/Cart/Cart/:product_id" component={Cart} />
-            <Route exact path="/Cart/viewOrder/:email" component={viewOrder} />
-            <Route exact path="/Contact/Contact" component={Contact} />
+            <Route  path="/Product/Product" component={Product} />
+            <Route  path="/CatPro/CatPro/:category_id" component={CatPro} />
+            <Route  path="/Details/Details" component={Details} />
+            <Route  path="/Condition" component={Condition} />
+            <Route  path="/AddProduct/AddProduct" component={AddProduct} />
+            <Route  path="/Admin/AdminHeader" component={AdminHeader} />
+            <Route  path="/Admin/Order" component={Order} />
+            <Route  path="/Admin/Login" component={ALogin} />
+            <Route  path="/Admin/Description" component={Description} />
+            <Route  path="/Admin/ProductList" component={ProductList} />
+            <Route  path="/Admin/ProductUpdate/:product_id" component={ProductUpdate} />
+            <Route  path="/Admin/DescriptionList" component={DescriptionList} />
+            <Route  path="/Admin/DescriptionUpdate/:product_id" component={DescriptionUpdate} />
+            <Route  path="/login/login" component={Login} />
+            <Route  path="/login/register" component={Register} />
+            <Route  path="/Cart/Cart/:product_id" component={Cart} />
+            <Route  path="/Cart/viewOrder/:email" component={viewOrder} />
+            <Route  path="/Contact/Contact" component={Contact} />
         </BrowserRouter>
 
     )
