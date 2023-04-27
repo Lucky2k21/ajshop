@@ -22,7 +22,7 @@ import Login from './login/login';
 import Register from './login/register';
 import Condition from './Home/Condition';
 
-const Routing = () => {
+const Routing = ({location}) => {
 
     return (
         <BrowserRouter>
