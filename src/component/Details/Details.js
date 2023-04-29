@@ -33,7 +33,7 @@ class Details extends Component {
       <>
         <Header />
 
-        <section id="details" className="py-5" >
+        <section id="details" className="py-5" style={{backgroundColor:'aliceblue'}}>
           <Link to={`/CatPro/CatPro/${this.state.categoryId}`} className="btn btn-dark m-2 p-2"> <i className="fa-solid fa-arrow-left m-1" ></i>Back</Link>
           <div role="alert" className='m-2 text-center' style={{ color: 'red' }}>
             {this.state.message && <h1>{this.state.message}</h1>}
