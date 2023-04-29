@@ -88,25 +88,25 @@ class Header extends Component {
       <>
         <nav className="navbar navbar-expand-lg navbar-dark" id="navbar" >
           <div className="container" >
-            <Link className="navbar-brand" to={'/'}><img src="https://i.ibb.co/XSKtDHH/Logo1.png" alt="l" id="image" /></Link>
+            <Link className="navbar-brand" to={'/'}><img src="https://i.ibb.co/XSKtDHH/Logo1.png" alt="l" id="image" data-aos="fade-right"/></Link>
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span className="navbar-toggler-icon"></span>
             </button>
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
               <ul className="navbar-nav mx-auto my-2 my-lg-0">
                 <li className="nav-item">
-                  <Link className="nav-link active " to={`/`} >Home</Link>
+                  <Link className="nav-link active " to={`/`} data-aos="fade-right">Home</Link>
                 </li>
 
                 <li className="nav-item">
-                  <Link className="nav-link" to={`/Product/Product`}>Products</Link>
+                  <Link className="nav-link" to={`/Product/Product`} data-aos="fade-right">Products</Link>
                 </li>
 
                 <li className="nav-item">
-                  <Link className="nav-link" to={`/Contact/Contact`}>Contact</Link>
+                  <Link className="nav-link" to={`/Contact/Contact`} data-aos="fade-left">Contact</Link>
                 </li>
               </ul>
-              <form className="d-flex me-2"  >
+              <form className="d-flex me-2"  data-aos="fade-left">
                 <input type="text" placeholder="Search..." id="search-field" onChange={this.handleChange} />
 
               </form>
