@@ -59,7 +59,7 @@ class CatProDisplay extends Component {
         return CatData.map((item) => {
           return (
 
-            <div key={item._id} className="card border-0 col-md-4 col-lg-2 col-sm-4 col-6 mb-3">
+            <div key={item._id} className="card border-0 col-md-4 col-lg-2 col-sm-4 col-6 mb-3" data-aos="fade-up">
               <div className="picture1">
            <img src={item.Image} alt="1" className="img-responsive"/>
            </div>

@@ -8,7 +8,7 @@ class Condition extends Component{
            <>
            <Header/>
            
- <div id="demo" className="carousel" data-bs-ride="carousel">
+ <div id="demo" className="carousel" data-bs-ride="carousel" data-aos="fade-up-right">
 
   <div className="carousel-inner">
     <div className="carousel-item active">
@@ -18,16 +18,16 @@ class Condition extends Component{
   </div>
   </div>
            
-           <div className="container" id="about">
+           <div className="container" id="about" data-aos="fade-up-left">
             <div className="title text-center py-5">
                <h1 className="position-relative d-inline-block" style={{color:'var(--secondary-color)'}}>Blog</h1>
             </div>
             
          <div className="section m-4" style={{backgroundColor: '#faebd77d',alignItems:'baseline'}}>
-            <div className="text">
+            <div className="text" data-aos="fade-right">
             <img src="https://i.ibb.co/SQWGnf6/100-natural-Products.png" alt="1" style={{height:'350px'}}/>
             </div>
-               <p style={{animation:'none'}}>
+               <p style={{animation:'none'}} data-aos="fade-left">
                "Our 100% natural cosmetic products are carefully crafted with plant-based ingredients, ensuring that you not only look beautiful but feel good about what you're putting on your skin."
                "Say goodbye to synthetic fragrances and harsh preservatives - our 100% natural cosmetic line offers a refreshing alternative for those seeking a more wholesome beauty routine."
                "With our commitment to using only natural, sustainably sourced ingredients, you can trust that our 100% natural cosmetic products are both good for your skin and good for the planet."
@@ -39,10 +39,10 @@ class Condition extends Component{
             </div>
 
 
-            <div className="container m-4" id="about">
+            <div className="container m-4" id="about" data-aos="fade-up">
             
          <div className="section" style={{backgroundColor: '#98a3a47a',alignItems:'center'}}>
-            <div className="text">
+            <div className="text" data-aos="fade-left">
             
                <p style={{animation:'none'}}>
                "Each of our handmade cosmetic products is made with the finest ingredients, blended together by hand to create a product that is both effective and indulgent."
@@ -50,17 +50,17 @@ class Condition extends Component{
                "Experience the difference that handmade cosmetics can make with our carefully curated line of products, each one infused with the care and attention to detail that only a handmade product can offer."
                </p>
                </div>
-               <img src="https://i.ibb.co/7kw7sx0/hand-made.png" alt="1" style={{height:'350px'}}/>
+               <img src="https://i.ibb.co/7kw7sx0/hand-made.png" alt="1" style={{height:'350px'}} data-aos="fade-left"/>
                </div>
             </div>
 
-            <div className="container" id="about">
+            <div className="container" id="about" data-aos="fade-up">
             
          <div className="section" style={{backgroundColor: '#f3f5f4',alignItems:'baseline'}}>
-            <div className="text">
+            <div className="text" data-aos="fade-right">
             <img src="https://i.ibb.co/xDcbYtB/natural.png" alt="1" style={{height:'350px'}}/>
             </div>
-               <p style={{animation:'none'}}>
+               <p style={{animation:'none'}} data-aos="fade-left">
                "Our 100% vegan cosmetic line is formulated to deliver results without compromising on ethics or quality, so say goodbye to animal-derived ingredients and embrace the power of plant-based beauty."
 
 "We strive to use only vegan ingredients, which ensures that our cosmetic line is not only safe and effective, but also aligns with your values and beliefs."
@@ -74,10 +74,10 @@ class Condition extends Component{
                
             </div>
 
-            <div className="container m-4" id="about">
+            <div className="container m-4" id="about" data-aos="fade-up">
             
          <div className="section" style={{backgroundColor: '#eab3b082',alignItems:'end'}}>
-            <div className="text" >
+            <div className="text" data-aos="fade-right">
             
                <p style={{animation:'none'}}>
                "Do you want skincare that's as kind to your skin as it is to the environment? Our organic cosmetic line uses only the purest ingredients for a gentle, effective, and sustainable beauty routine."
@@ -91,16 +91,16 @@ class Condition extends Component{
 "Our cosmetic line is formulated to work in harmony with your skin for a truly nourishing and rejuvenating experience."
                </p>
                </div>
-               <img src="https://i.ibb.co/f9Jc5sL/ban1.png" alt="1" style={{height:'350px'}}/>
+               <img src="https://i.ibb.co/f9Jc5sL/ban1.png" alt="1" style={{height:'350px'}} data-aos="fade-left"/>
                </div>
             </div>
 
-            <div className="container" id="about">
+            <div className="container" id="about" data-aos="fade-up">
             <div className="title text-center py-5">
                <h1 className="position-relative d-inline-block" style={{color:'var(--secondary-color)'}}>About</h1>
             </div>
 
-<div style={{backgroundImage:"url('/back1.png')",backgroundSize:'cover'}}>
+<div style={{backgroundImage:"url('/back1.png')",backgroundSize:'cover'}} data-aos="fade-up-right">
             <div >
                 <p style={{fontFamily:'auto',fontStyle:'oblique',color:'green',fontSize:'22px'}}><span style={{fontWeight: 'bold',fontFamily: 'poppins'}}>aj wellness</span> is your go-to destination for all-natural and handcrafted cosmetic products for hair, face, and body care. The brand is committed to providing you with the best quality, natural skincare solutions that are good for you and the environment.</p>
                 <p style={{fontFamily:'auto',fontStyle:'oblique',color:'green',fontSize:'22px'}}>At <span style={{fontWeight: 'bold',fontFamily: 'poppins'}}>aj wellness</span>, we understand that beauty is more than just a skin-deep feeling. We believe that beauty should be about feeling confident and comfortable in your own skin, and that starts with using products that are safe, effective and gentle on your skin. All of our products are handcrafted using natural ingredients and fewer chemicals to deliver skincare that truly nourishes and enhances your skin.</p>

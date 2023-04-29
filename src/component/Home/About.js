@@ -5,13 +5,13 @@ class About extends Component{
     render(){
         return(
             <>
-            <div className="container-fluid" id="about">
+            <div className="container-fluid" id="about" data-aos="fade-up">
             <div className="title text-center py-5">
                <h1 className="position-relative d-inline-block" style={{color:'var(--secondary-color)'}}>About</h1>
             </div>
             
-         <div className="section" style={{backgroundColor: '#faebd77d'}}>
-            <div className="text">
+         <div className="section" style={{backgroundColor: '#faebd77d'}} data-aos="fade-up">
+            <div className="text" data-aos="flip-right">
                
                <p>
                   <span style={{fontWeight: 'bold',fontFamily: 'poppins'}}>aj wellness</span> is a cosmetics brand that offers a unique blend of natural ingredients with a modern approach. Our products are free from harsh chemicals and instead feature non-chemical, natural ingredients to provide you with clean beauty that enhances your natural radiance and well-being. We believe that true beauty comes from feeling confident and comfortable in your skin, which is why we're dedicated to creating safe, natural, and effective products. Our meticulously crafted formulations are designed to deliver optimal results without compromising your health or the environment. At <span style={{fontWeight: 'bold',fontFamily: 'poppins'}}>aj wellness</span>, we're passionate about bringing you a fresh and contemporary approach to natural beauty.
@@ -26,8 +26,8 @@ class About extends Component{
          
          
          
-         <div className="section">
-            <div className="text">
+         <div className="section" data-aos="fade-up">
+            <div className="text" data-aos="flip-right">
                <img src="a1.avif" alt="1"/>
             </div>
                <p>
@@ -42,8 +42,8 @@ class About extends Component{
          
          
          
-         <div className="section" style={{backgroundColor: '#ffc10729'}}>
-            <div className="text">
+         <div className="section" style={{backgroundColor: '#ffc10729'}} data-aos="fade-up">
+            <div className="text" data-aos="flip-right">
                
                <p>
                   “Say hello to glowing, hydrated skin with the power of face serums! These tiny bottles are packed with nourishing ingredients that will give your complexion the boost it deserves.“
@@ -57,7 +57,7 @@ class About extends Component{
          </div>
 
       
-         <div className="about-section wf-section mt-4" style={{backgroundColor:'#dacec6b0'}}>
+         <div className="about-section wf-section mt-4" style={{backgroundColor:'#dacec6b0'}} data-aos="flip-up">
    <div className="container w-container">
       <div className="about-wrap">
          <h2>Natural and <br/>organic</h2>
@@ -66,28 +66,28 @@ class About extends Component{
          <a href="Product/Product" className="button-outline w-button">Shop all</a>
       </div>
    </div>
-   <div  className="about-image-item one" >
+   <div  className="about-image-item one" data-aos="fade-right">
       <img src="https://assets.website-files.com/624fd4a40f05b81d5dc5644c/624fe816c8230f2eb809e720_about-01.jpg" loading="lazy" alt="1" className="about-image"/>
    </div>
-   <div  className="about-image-item two" >
+   <div  className="about-image-item two" data-aos="fade-right">
       <img src="https://assets.website-files.com/624fd4a40f05b81d5dc5644c/624fe8a01fb642b8deeb8a8e_about-02.jpg" loading="lazy" alt="2" className="about-image"/>
    </div>
-   <div  className="about-image-item three" >
+   <div  className="about-image-item three" data-aos="fade-left">
       <img src="https://i.ibb.co/VpLcvsm/vc.webp" loading="lazy" alt="3" className="about-image" style={{height:'187px',width:'214px'}}/>
    </div>
-   <div  className="about-image-item four" >
+   <div  className="about-image-item four" data-aos="fade-left">
       <img src="https://assets.website-files.com/624fd4a40f05b81d5dc5644c/624fea68c6bcd46c3eb8f0f6_about-04.jpg" loading="lazy" alt="4" className="about-image"/>
    </div>
-   <div  className="about-image-item six" >
+   <div  className="about-image-item six" data-aos="fade-right">
       <img src="https://assets.website-files.com/624fd4a40f05b81d5dc5644c/624fea68c6bcd46c3eb8f0f6_about-04.jpg" loading="lazy" alt="5" className="about-image"/>
    </div>
-   <div  className="about-image-item five" >
+   <div  className="about-image-item five" data-aos="fade-left">
       <img src="https://assets.website-files.com/624fd4a40f05b81d5dc5644c/624feaa51db074e09e802cd2_about-05.jpg" loading="lazy" alt="6" className="about-image"/>
    </div>
 </div>
 
 
-<section className="pt-5 pb-5 m-2" id="upcoming">
+<section className="pt-5 pb-5 m-2" id="upcoming" data-aos="fade-up">
    <div className="container">
    <h1 style={{color:'var(--secondary-color)',textAlign:'center',textTransform:'capitalize',fontWeight: 'normal'}}>Coming-soon</h1>
      <div className="row">
@@ -201,7 +201,7 @@ class About extends Component{
    </div>
  </section>
 
- <section className="container-fluid">
+ <section className="container-fluid" data-aos="fade-left">
    <div >
       <video src="banner.mp4" className="vi-bg" type="video/mp4" controls loop muted alt="Chicago" autoPlay={true}   style={{width:'100%',height:'700px',objectFit: 'cover'}}></video>
    </div>
@@ -213,7 +213,7 @@ class About extends Component{
       <h1 style={{color:'var(--secondary-color)',textAlign:'center',textTransform:'capitalize',fontWeight: 'normal'}}>Reviews</h1>
       
       <div className="row">
-         <div className="col-md-4 text-center">
+         <div className="col-md-4 text-center" data-aos="fade-right">
             <div className="profile">
                <img src="a2.jpg" className="user" alt="img"/>
                <p className="p">I am  personally very impressed & would recommend  all the  skincare products  of aj 😊.</p>
@@ -221,7 +221,7 @@ class About extends Component{
             </div>
          </div>
 
-         <div className="col-md-4 text-center">
+         <div className="col-md-4 text-center" data-aos="fade">
             <div className="profile">
                <img src="a2.jpg" className="user" alt="img"/>
                <p className="p">Love their shampoo and conditioner....cleanse scalp so well with rosemary essence,very refreshing..... N the conditioner makes my hair so frizz free, smooth 😊.</p>
@@ -229,7 +229,7 @@ class About extends Component{
             </div>
          </div>
 
-         <div className="col-md-4 text-center">
+         <div className="col-md-4 text-center" data-aos="fade-left">
             <div className="profile">
                <img src="a2.jpg" className="user" alt="img"/>
                <p className="p">Have tried Foaming Face Wash and conditioner , it is really good.

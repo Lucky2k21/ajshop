@@ -75,16 +75,16 @@ class Slider extends Component{
         <Link  to={`./Condition`} >
         <div className="row" style={{marginLeft:'180px'}} >
         
-         <div className="card border-0  col-lg-2 " style={{backgroundColor: '#fff0'}}>
+         <div className="card border-0  col-lg-2 " style={{backgroundColor: '#fff0'}}  data-aos="fade-left">
             <img src="1.webp" alt="1"/>
          </div>
-         <div className="card border-0  col-lg-2 " style={{backgroundColor: '#fff0'}}>
+         <div className="card border-0  col-lg-2 " style={{backgroundColor: '#fff0'}}  data-aos="fade-left">
             <img src="2.webp" alt="2"/>
          </div>
-         <div className="card border-0  col-lg-2 " style={{backgroundColor: '#fff0'}}>
+         <div className="card border-0  col-lg-2 " style={{backgroundColor: '#fff0'}}  data-aos="fade-right">
             <img src="3.webp" alt="3"/>
          </div>
-         <div className="card border-0 col-lg-2 " style={{backgroundColor:'#fff0'}}>
+         <div className="card border-0 col-lg-2 " style={{backgroundColor:'#fff0'}}  data-aos="fade-right">
             <img src="hb.png" alt="ha" style={{height: '105px',width:'105px'}}/>
             <p style={{color:'grey',fontWeight:'600',fontSize: '12px'}}>Hand Made</p>
          </div>

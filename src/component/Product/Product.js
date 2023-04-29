@@ -72,9 +72,9 @@ class Product extends Component{
             <div>
             {/* <button  className="btn btn-success" onClick={this.proceed}></button> */}
             </div>
-            <section  id="product"  style={{backgroundColor:'var(--primary-color)'}}>
+            <section  id="product"  style={{backgroundColor:'var(--primary-color)'}} data-aos="fade">
 
-            <div id="demo" className="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div id="demo" className="carousel slide carousel-fade" data-bs-ride="carousel" data-aos="fade">
   <div className="carousel-inner">
     <div className="carousel-item active">
       
@@ -93,7 +93,7 @@ class Product extends Component{
   </button>
 </div>
             
-  <div className='container-fluid'>
+  <div className='container-fluid' data-aos="fade">
      <div className="title text-center py-5">
         <h1 className="position-relative d-inline-block" style={{color:'var(--secondary-color)',textTransform:'capitalize'}}>Products</h1>
         

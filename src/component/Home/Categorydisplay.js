@@ -10,7 +10,7 @@ const Categorydisplay = (props) => {
                 return (
 
 
-                    <div className="card border-0 col-md-6 col-lg-4 my-4" key={item.category_id}>
+                    <div className="card border-0 col-md-6 col-lg-4 my-4" key={item.category_id} data-aos="flip-up">
                         <div className="inner">
                         <img src={item.image} alt={item.category} className="card-img-top" />
                         </div>
