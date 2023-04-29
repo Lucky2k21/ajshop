@@ -34,7 +34,7 @@ const Footer = ()=>{
             </ul>
             
          </div>
-         <div className="row  align-item-center justify-content-center" data-aos="fade-up">
+         <div className="row  align-item-center justify-content-center">
          
                <p className="text-warning">Copyright © aj wellness </p>
                
