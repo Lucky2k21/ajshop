@@ -57,7 +57,7 @@ class About extends Component{
          </div>
 
       
-         <div className="about-section wf-section mt-4" style={{backgroundColor:'#dacec6b0'}} data-aos="flip-up">
+         <div className="container about-section wf-section mt-4" style={{backgroundColor:'#dacec6b0'}} data-aos="flip-up">
    <div className="container w-container">
       <div className="about-wrap">
          <h2>Natural and <br/>organic</h2>
@@ -201,9 +201,9 @@ class About extends Component{
    </div>
  </section>
 
- <section className="container-fluid" data-aos="fade-left">
+ <section className="container" data-aos="fade-up">
    <div >
-      <video src="banner.mp4" className="vi-bg" type="video/mp4" controls loop muted alt="Chicago" autoPlay={true}   style={{width:'100%',height:'700px',objectFit: 'cover'}}></video>
+      <video src="banner.mp4" className="vi-bg" type="video/mp4" controls loop muted alt="Chicago" autoPlay={true}   style={{width:'95%',height:'700px',objectFit: 'cover'}}></video>
    </div>
 
  </section>
