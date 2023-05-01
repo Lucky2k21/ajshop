@@ -40,7 +40,7 @@ class CatPro extends Component {
             <>
                 <Header />
                 <section id="product" style={{ backgroundColor: 'var(--primary-color)' }} data-aos="fade-up">
-                    <div className="container-fluid">
+                    <div className="container-fluid" style={{background:'aliceblue'}} data-aos="fade-up">
                         <div className="title text-center py-5">
                             <h1 className="position-relative d-inline-block" style={{ color: 'var(--secondary-color)', textTransform: 'capitalize' }}>Products</h1>
                         </div>

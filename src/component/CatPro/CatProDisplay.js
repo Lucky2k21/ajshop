@@ -66,7 +66,7 @@ class CatProDisplay extends Component {
            <div className="picture2">
             <img src={item.Image1} alt="image1" className="img-responsive" style={{width:'-webkit-fill-available'}}/>
            </div>
-              <div className="card-body text-center ">
+              <div className="card-body text-center " data-aos="fade-left">
                 <h4 className="card-title " >{item.product_name}</h4>
                 <p className="card-text mt-3" ><del>₹249.00</del> <span>{item.Price}</span></p>
                 <button className="btn btn-dark"
